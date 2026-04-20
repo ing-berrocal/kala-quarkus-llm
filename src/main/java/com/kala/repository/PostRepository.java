@@ -23,7 +23,7 @@ import jakarta.inject.Inject;
 @ApplicationScoped
 public class PostRepository {
 
-    private static final String COLLECTION_NAME = "posts";
+    private static final String COLLECTION_NAME = "post_data";
 
     @Inject
     MongoClient mongoClient;
